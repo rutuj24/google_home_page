@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex>.nav{
+    margin: 10px 20px;
+}
+
+
+.flexa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:300px;
+    font-size: 250%;
+    padding-bottom: 25px;
+}
+
+
+#txt{
+    width: 550px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 10px;
+}
+
+
+.flexb{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.flexb>input{
+    margin: 30px 10px;
+}
+.button{
+    padding: 10px 20px;
+    border: hidden;
+    font: larger;
+}
+.button:hover{
+    border: 1px solid black;
+}
+
+
+
+
+#flexbar{
+    display: flex;
+    background-color: rgb(245, 243, 243);
+}
+
+#flexl{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+#flexl>div{
+    padding: 20px 30px;
+}
+
+#flexi{
+    display: flex;
+}
+
+
+
+#p{
+    color: red;
+    display: flex;
+    justify-content: left;
+    padding: 25px 40px;
+    font-size: large;
+    border-bottom: rgb(194, 193, 193) solid 1px;
+}
+
+
+
+#grid{
+    display: grid;
+    grid-template-columns: 250px auto auto;
+    margin: 50px 10px;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.a{
+    display: flex;
+    justify-content: left;
+}
+
+.t{
+    width: 100%;
+}
+
+#x{
+    width: 100%;
+    height: 75%;
+}
+
+#b{
+    display: flex;
+    justify-content: flex-end;
+}
+#b>input{
+    color:white;
+    background-color: #4d90fe;
+    border: solid 1px black;
+}
+#b>input:hover{
+    background-color: #4787ed;
+}
